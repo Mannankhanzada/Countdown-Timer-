@@ -1,0 +1,64 @@
+
+  body{
+    margin:0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(https://i.pinimg.com/originals/fa/c0/5c/fac05c110c458e9bab3a3248bfb3c376.jpg) no-repeat  center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.heading{
+  position: absolute;
+  top: 10%;
+  text-align: center;
+}
+
+.heading p{
+  font-size:1.4em; 
+  line-height: 0;
+  color: #fff;
+}
+
+.heading h2{
+  font-size: 3.5em;
+  line-height: 0;
+  color: #fff;
+}
+.message {
+font-style: italic;
+font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    display: none; 
+}
+.timer{
+  margin: 15px 30px;
+  width: 120px;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 15px 10px 20px #6660;
+  cursor: pointer;
+}
+
+.timer p{
+  color: #fff;
+  font-size: 45px;
+  margin: 25px 8px;
+}
+
+.timer h6{
+  margin: 0;
+  padding: 10px;
+  font-size: 1em;
+  background: #000;
+  color: #fff;
+  text-transform:uppercase;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 15px 10px 20px #000;
+}
